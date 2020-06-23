@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Helmet } from "react-helmet";
 import "./styles.css";
 
 export default function App() {
@@ -20,10 +19,6 @@ export default function App() {
 
   return (
     <div className="App">
-      <Helmet>
-        <title>Tax calculator</title>
-      </Helmet>
-
       <h1>Tax calculator</h1>
 
       <div className="inputGroup">
